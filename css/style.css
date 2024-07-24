@@ -1,0 +1,321 @@
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+header {
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+body {
+    margin: 0;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+}
+#head-text {
+    font-family: "Ojuju", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #040F78;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    vertical-align: middle;
+
+}
+#main-page {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+#searchdiv {
+    display: inline-flex;
+    align-content: center;
+    vertical-align: center;
+    width: 500px;
+    height: 50px;
+}
+#searchpole {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    width: 60%;
+    height: 30px;
+    border: 0;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    align-self:center;
+    margin-left: 10%;
+}
+
+.icons {
+    align-self: center;
+    margin-left: 5%;
+}
+
+.icon_source {
+    width: 25px;
+}
+#logo {
+    width: 100%;
+    height: 200px;
+    background: url(https://lh3.googleusercontent.com/MuhfxwPyW_r1REMBUT_KOfwKfUYCOeXIqFv3glwWS2BA7fyDm8iT5bhHtJ0KZSUmhcMLXiyS2Mqn=w1440-ns-nd-rj);
+    background-repeat: no-repeat;
+    background-size: 500px ;
+}
+.logo-text {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    color:white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#logo-text1 {
+    padding-top: 50px;
+}
+#logo-main-text {
+    text-align: center;
+    font-family: "Ojuju", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4bff4b;
+    padding: 0;
+    margin: 0;
+}
+.blocks {
+    background-color: white;
+}
+#catalog {
+    width: 90%;
+    align-content: center;
+}
+#catalog-a {
+    display: block;
+    width: 100%;
+    font-family: "Ojuju", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 50px;
+    
+}
+#catalog-a:link, #catalog-a:hover, #catalog-a:active, #catalog-a:visited {
+    color: #040F78;
+}
+#Balls {
+    background-image: url(https://cdn1.ozone.ru/s3/multimedia-1-4/6920169916.jpg);
+}
+#Sneakers {
+    background-image: url(https://vaf-sport.ru/media/catalog/3f/3ff15332cf0b11ebbaa71831bf2721f6_e04b14f279b811edbacc1831bf2721f6.jpg);
+    background-size: 450px 100%;
+}
+#Uniform {
+    background-image:url("/background/opera_85Da7gwErk.png");
+}
+#AddInv {
+
+    background-image: url(https://m.media-amazon.com/images/I/91NvsI4F0-L._AC_SL1500_.jpg);
+}
+
+.catalog-texts {
+    height: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    color:white;
+    font-size: 37px;
+    text-shadow: 1px 0 1px #000, 
+        0 1px 1px #000, 
+        -1px 0 1px #000, 
+        0 -1px 1px #000;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left:5%;
+    text-align: left;
+}
+.catalog-elements {
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 10%;
+}
+#advantages {
+    display: inline-flex;
+    background-color: #53443F;
+    width: 1736px;
+    height: 770px;
+    margin-left: 92px;
+    border-radius: 40px;
+    position: relative;
+}
+#adv-img {
+    position: absolute;
+    width: 877px;
+    height: 770px;
+    border-radius: 40px;
+    left: 50%;
+}
+#adv-text {
+    position: absolute;
+    width: 45%;
+    height: 770px;
+    padding: 2%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+    left: 1%;
+}
+#H_Advantages {
+    display: block;
+    width: 85%;
+    font-family: "Ojuju", sans-serif;
+    font-weight: 600;
+    font-size: 53px;
+    text-decoration: none;
+    margin-top: 50px;
+    color: #040F78;
+    margin-left: 92px;
+}
+footer {
+    position: relative;
+    background-color: #53443F;
+    height: 369px;
+}
+.lists {
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 50px;
+    list-style: none;
+    color: white;
+    position: absolute; 
+}
+.lists:first-child {
+    left: 50px;
+}
+.lists:nth-child(2) {
+    left: 380px;
+}
+.lists:nth-child(3) {
+    left: 800px;
+}
+.lists-elements {
+    color:white;
+    text-decoration: none;
+}
+.lists-elements:hover {
+    text-decoration: underline;
+}
+.lists-elements:link, .lists-elements:hover, .lists-elements:active, .lists-elements:visited {
+    color: white;
+}
+#main {
+    font-size: 24px;
+    font-weight: 300; 
+    margin-bottom: 5px;
+}
+#login_module {
+    background-color: #53443F;
+    width: 800px;
+    height: 500px;
+    display:inline-block;
+    text-align:center;
+    margin-left: 560px;
+    border-radius: 40px;
+    margin-bottom: 50px;    
+}
+#modulein {
+    padding: 0;
+    margin: 0;
+    margin-top: 200px;
+}
+.login {
+    margin-top: 10px;
+}
+.text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    color:white;
+}
+#regb {
+    text-decoration: none;
+}
+#regb:link, #regb:hover, #regb:active, #regb:visited {
+    color: rgba(255, 255, 255, 0.404);
+}
+#login-form {
+    display: inline ;
+}
+#feedback-div {
+    background-color: #53443F;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+#feedback-text {
+    width: 100%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+    margin-top: 100px;
+    padding-top: 10px;
+}
+#form-feedback {
+    text-align: center;
+}
+.input-feedback {
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#big-feedback {
+    width: 1000px;
+    height: 200px;
+}
+
+.title {
+    font-family: "Ojuju", sans-serif;
+    font-weight: 600;
+    font-size: 53px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    border-bottom: black solid 2px;
+}
+#cont {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #53443F;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.reviews {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+}

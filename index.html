@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">   
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Volle">
+    <meta name="apple-mobile-web-app-title" content="Volle">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/src" sizes="512x512" href="icons/volleyball-ball">
+    <link rel="apple-touch-icon" type="image/src" sizes="512x512" href="icons/volleyball-ball">
+    <script src="index.js"></script>
+    <title>Магазин волейбольных товаров</title>
+</head>
+<header>
+    <a href="index.html" id="main-page"><p id="head-text">VOLLE</p></a>
+    <input id="searchpole" type="search">
+    <a href="" class="icons"><img class="icon_source" src="icons/menu.png" alt=""></a>
+    <a href="" class="icons"><img class="icon_source" src="icons/bin.png" alt=""></a>
+    <a href="login.html" class="icons"><img class="icon_source" src="icons/account.png" alt=""></a>
+</header>
+<body>
+    <div id="logo">
+        <p class="logo-text" id="logo-text1">Прыгай выше</p>
+        <p class="logo-text" id="logo-text2">Бей сильнее</p>
+        <p id="logo-main-text">VOLLE</p>
+    </div>
+    <div class="blocks">
+        <div id="catalog">
+            <a href="" id="catalog-a">Catalog ></a>
+            <a href="" class="catalog-elements" id="Balls"><p class="catalog-texts">Мячи</p></a>
+            <a href="" class="catalog-elements" id="Sneakers"><p class="catalog-texts">Кроссовки</p></a>
+            <a href="" class="catalog-elements" id="Uniform"><p class="catalog-texts">Формы</p></a>
+            <a href="" class="catalog-elements" id="AddInv"><p class="catalog-texts">Доп. инвентарь</p></a>
+        </div>
+    </div>
+    <footer>
+        <ul class="lists">
+            <li id="main">Помощь</li>
+            <li><a class="lists-elements"  href="feedback.php">Обратная связь</a></li>
+            <li><a class="lists-elements"  href="">Возврат и гарантия</a></li>
+            <li><a class="lists-elements"  href="">Помощь в подборе</a></li>
+            <li><a class="lists-elements"  href="">Таблица размеров</a></li>
+        </ul>
+    </footer>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyAiOgQGxI0mP-kutSABWKluGC5XUp18hQo",
+          authDomain: "volle-2ba1b.firebaseapp.com",
+          projectId: "volle-2ba1b",
+          storageBucket: "volle-2ba1b.appspot.com",
+          messagingSenderId: "569620134258",
+          appId: "1:569620134258:web:52014753cff413e7fc85eb"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+</body>
+</html>

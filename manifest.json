@@ -1,0 +1,15 @@
+{
+    "name": "Volle",
+    "description": "Сайт с волейбольными товарами",
+    "start_url": "/",
+    "lang": "ru-RU",
+    "theme_color": "#000000",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "icons/volleyball-ball",
+        "sizes": "512x512",
+        "type": "image/src"
+      }
+    ]
+  }
